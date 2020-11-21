@@ -1,0 +1,58 @@
+{
+  "name": "blink_smpp",
+  "version": "1.0.0",
+  "description": "Blink SMPP Client",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "node dist/index.js",
+    "dev": "nodemon src/index.ts",
+    "build": "tsc -p .",
+    "test": "npm start test"
+  },
+  "keywords": [
+    "Blink",
+    "SMPP"
+  ],
+  "author": "Akram Hossain",
+  "license": "MIT",
+  "dependencies": {
+    "@types/bcryptjs": "^2.4.2",
+    "@types/helmet": "0.0.47",
+    "@types/jsonwebtoken": "^8.5.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "class-transformer": "^0.2.3",
+    "class-validator": "^0.12.2",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "helmet": "^3.23.3",
+    "jsonwebtoken": "^8.5.1",
+    "microframework": "^0.6.4",
+    "moment": "^2.27.0",
+    "mssql": "^6.2.1",
+    "multer": "^1.4.2",
+    "mysql": "^2.18.1",
+    "reflect-metadata": "^0.1.13",
+    "routing-controllers": "^0.9.0-alpha.4",
+    "smpp": "^0.4.0",
+    "typedi": "^0.8.0",
+    "typeorm": "^0.2.25",
+    "typeorm-typedi-extensions": "^0.2.3",
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^3.0.0",
+    "@types/body-parser": "^1.19.0",
+    "@types/cors": "^2.8.6",
+    "@types/dotenv": "^8.2.0",
+    "@types/express": "^4.17.6",
+    "@types/multer": "^1.4.3",
+    "@types/node": "^14.0.13",
+    "@types/winston": "^2.4.4",
+    "nodemon": "^2.0.4",
+    "ts-node": "^8.10.2",
+    "typeorm-model-generator": "^0.4.2",
+    "typescript": "^3.9.5"
+  }
+}
